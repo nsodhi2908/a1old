@@ -1,0 +1,186 @@
+body {
+	background-image: url("background.jpg");
+	
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Adapted from w3schools */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+a {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: skyblue;
+}
+
+img {
+  display: block;
+  border-top: 100px;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 200px; 
+}
+
+.intro {
+	text-indent: 50px;
+	margin-left: 100px;
+    margin-right: 100px;
+	border-color: navy;
+	border-style: solid;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	
+}
+
+p {
+	font-style: italic;
+	font-size: 14pt;
+	color: black;
+	text-align: center;
+	
+}
+
+h2 {
+	float: left;
+	color: black;
+	font-style: italic;
+	font-size: 14pt;
+	text-decoration: underline;
+	
+}
+	
+ /* Adapted from https://www.w3schools.com/css/css_table.asp */
+ 
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%
+}
+
+table, td, th {
+  border: 2px solid black;
+  padding: 10px
+  
+}
+
+table, th {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #FEE8FF;
+  
+}
+
+/* Adapted from https://www.w3schools.com/css/css_image_gallery.asp */
+
+.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+  
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+	float: left;
+	color: black;
+	font-style: italic;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+
+
+.phone {
+	height: 60px;
+	width: 60px;
+	margin-right: 400px;
+	
+}
+
+.number {
+	text-indent: 20px;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 50px;
+    
+}
+
+.mail {
+	height: 60px;
+	width: 60px;
+	margin-right: 400px;
+	margin-top: 110px;
+}
+
+.email {
+	text-indent: 20px;
+	margin-right: 1150px;
+}
+
+
+.fb {
+	height: 60px;
+	width: 60px;
+	margin-right: 300px;
+	margin-top: 30px;
+}
+.facebook {
+	text-indent: 20px;
+	position: absolute;
+	margin-left: 70px;
+    
+}
+
+.insta {
+	height: 60px;
+	width: 60px;
+	margin-right: 300px;
+	margin-top: 80px;
+	
+}
+.instagram {
+	text-indent: 20px;
+	position: absolute;
+	margin-left: 70px;
+    
+}
+
+
+
+
